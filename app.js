@@ -34,7 +34,7 @@ app.post("/", (req, res) => {
 
     const options = {
         method: "POST",
-        auth: "jad1:48995042bdbdade74b41d0c441b80882-us21"
+        auth: "jad1:aa5ea94d589615150df31334014c399f-us21"
     }
 
     const request = https.request(url, options, function(response){
@@ -47,7 +47,7 @@ app.post("/", (req, res) => {
         
         
         response.on("data", function (data) {
-       
+            console.log(JSON.parse(data));
 
             })
     })
