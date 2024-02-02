@@ -1,0 +1,6 @@
+package-lock-jsan
+node_modules/*
+/idea/
+
+images/*
+!images/.gitkeep
